@@ -1,0 +1,57 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1920px;
+}
+
+#footer section{
+    margin-left: 100px ;
+    margin-right: 100px ;
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+}
+
+#footer section h1{
+    margin-bottom: 10px;
+}
+
+#Copyright p:nth-child(2){
+    margin-top: 40px;
+}
+
+#Pages ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;margin: 0%;
+    width: 100%;
+    list-style: none;
+}
+
+#Pages ul li{
+    list-style: none;
+    font-size: 10px;
+}
+
+#Pages ul li a h1{
+    margin : 0;
+    font-weight: normal;
+}
+
+#Pages ul li a{
+    width : 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#Reseau a img{
+    width: 100px;
+    height: 100px;
+}
