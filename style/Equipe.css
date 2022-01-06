@@ -1,0 +1,8 @@
+body{
+    width: 1900px;
+    background-color: #F2B279;
+}
+
+header nav ul li:nth-child(2) a{
+    background-color: #591202;
+}
