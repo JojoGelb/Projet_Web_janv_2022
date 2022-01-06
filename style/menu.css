@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    width: 1920px;
+    width: 1900px;
 }
 
 nav img{
@@ -26,7 +26,7 @@ nav ul li{
     flex-direction: column;
     width : 10%;
     height: 60px;
-    background-color: #F2A35E;
+    background-color: #8C6354;
     font-size: 10px;
     list-style: none;
 }
