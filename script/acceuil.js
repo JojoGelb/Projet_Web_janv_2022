@@ -1,5 +1,3 @@
-var table = ["pain5","pain","pain2","pain3","pain4","pain5"];
-
 var table = [
     {"nom":"pain5","text":"Elles sont belles mes miches","alt":"image_de_pain5"},
     {"nom":"pain","text":"Tu veux mon pain?","alt":"image_de_pain"},

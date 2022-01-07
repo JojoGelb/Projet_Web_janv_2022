@@ -1,0 +1,47 @@
+body{
+    width: 1900px;
+    background-color: #F2B279;
+}
+
+header nav ul li:nth-child(3) a{
+    background-color: #591202;
+}
+
+#global section{
+    display: flex;
+    flex-direction: column;
+    right: 50%;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+}
+
+section img{
+    width: 600px;
+    height: 400px;
+}
+
+#global section p{
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+#global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#global a{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+#global a input{
+    width: 120px;
+    height: 30px;
+}
