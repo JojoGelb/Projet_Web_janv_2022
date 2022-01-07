@@ -1,30 +1,75 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
+
+
 <head>
+
     <title>Accueil</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="./style/accueil.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="./style/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./style/contact.css" />
+
     <script type="text/javascript" src="script/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="script/include.js"></script>
+
 </head>
 
 <body>
 
     <header id="test">
-
     </header>
-    
-    <h1>COOL things</h1>
+    <ul class="page">
+        <li list-style: none;>
+            <div class="tout">
+                <div class="premier">
+                    <form action="action_page.php">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="prenom" placeholder="Votre nom..">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom..">
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="Email" placeholder="Email..">
+                        <label for="Telephone">Telephone</label>
+                        <input type="text" id="Telephone" name="Telephone" placeholder="Telephone..">
+                        <label for="sujet">Sujet</label>
+                        <select id="sujet" name="sujet">
+                            <option value="demande de devis">Renseignements</option>
+                            <option value="Offre d'emploi">Livraison</option>
+                            <option value="Demande de renseignement">Offres d'emploi</option>
+                            <option value="Autres">Autres</option>
+                        </select>
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message" placeholder="Message.." style="height:200px"></textarea>
+                        <input type="submit" value="Envoi">
+                    </form>
+                </div>
+            </div>
+        </li>
+
+        <li list-style: none;>
+
+            <!--Il faut que tu supprimes le contenu du <li> et de mettre ce que tu veux, ça sera aligné-->
+
+            <div class="second">
+                <h3>Coordonnées</h3> <br /><br /><br />
+                <p>3, rue de l'agneau 14000 Caen</p>
+                <p>0636506374</p>
+                <p>pain@boulanget.fr</p>
+            </div>
+
+        </li>
+
+    </ul>
 
     <footer>
 
     </footer>
 
     <script>
-        $( "#test" ).load("menu.html");
+        $("#test").load("menu.html");
     </script>
 
 </body>

@@ -1,0 +1,64 @@
+body{
+    width: 1900px;
+    background-color: #F2B279;
+}
+
+header nav ul li:nth-child(7) a{
+    background-color: #591202;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: rgb(218, 165, 32);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+
+    background-color: goldenrod;
+
+}
+
+.premier {
+
+    border: 50px;
+    background-color: rgba(218, 165, 32, 0.34);
+    padding: 20px;
+    width: 50%;
+    height: 95%;
+    margin-left: 3em
+}
+
+.second {
+    border: 50px;
+    background-color: rgba(218, 165, 32, 0.34);
+    padding: 40px;
+    width: 70%;
+    margin-right: 12em;
+    height: 89%;
+}
+
+.page {
+
+    display: flex;
+
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}

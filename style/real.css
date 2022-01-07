@@ -13,7 +13,6 @@ header nav ul li:nth-child(3) a{
     right: 50%;
     width: 600px;
     height: 600px;
-    align-items: center;
 }
 
 section img{
@@ -23,8 +22,10 @@ section img{
 
 #global section p{
     font-size: 15px;
-    margin: 10px;
+    padding: 10px;
+    margin: 0;
     text-align: center;
+    background-color: #8C6354;
 }
 
 #global {

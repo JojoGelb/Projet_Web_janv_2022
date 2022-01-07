@@ -2,29 +2,76 @@
 <html lang="fr">
 
 <head>
-    <title>Accueil</title>
+    <title>Partenaires</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="./style/accueil.css" />
-    <link rel="stylesheet" type="text/css" href="style/menu.css" />
+    <link rel="stylesheet" type="text/css" href="./style/partenaire.css" />
+    <link rel="stylesheet" type="text/css" href="./style/menu.css" />
     <link rel="stylesheet" type="text/css" href="./style/footer.css" />
     <script type="text/javascript" src="script/jquery-3.6.0.js"></script>
-    <script type="text/javascript" src="script/include.js"></script>
 </head>
 
 <body>
 
-    <header id="test">
+    <header>
 
     </header>
-    
-    <h1>COOL things</h1>
+
+    <h1 id="titre_partie">Liste des partenaires</h1>
+
+    <section id="logos">
+
+        <section>
+            <a href="https://www.google.com"><img src="ressources/logo1.jpg" alt="logo the flour compagny"></a>
+            <p id="p_section" id= "lafrine" >Lafrine</p>
+        </section>
+
+        <section>
+            <a href="https://fr.wikipedia.org/"><img src="ressources/logo2.jpg" alt="logo buissness name"></a>
+            <p id="p_section" id="bledure">Blédure</p>
+        </section>
+
+        <section>
+            <a href="https://www.github.com"><img src="ressources/logo3.jpg" alt="logo grain de sel"></a>
+            <p id="p_section" id="salty">Salty</p>
+        </section>
+
+        <section>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="ressources/logo4.png"
+                    alt="logo entreprise electricite"></a>
+            <p id="p_section" id = lightNight>LightNight</p>
+        </section>
+
+        <section>
+            <a href="https://www.youtube.com"><img src="ressources/logo5.jpg" alt="logo entreprise eau"></a>
+            <p id="p_section" id ="water">Water l'eau</p>
+        </section>
+
+    </section>
+
+    <hr>
+
+    <h1 id="titre_partie">Liste des partenaires</h1>
+
+    <section id="slider">
+        <div>
+            <img class="sld" src="ressources/client1.jpg">
+            <img class="sld" src="ressources/client2.jpg">
+        <img class="sld" src="ressources/client3.png">
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus itaque obcaecati iste perspiciatis debitis autem laboriosam quidem expedita. Commodi dignissimos ipsum quos ullam non ut illum obcaecati natus quidem corporis.</p>
+        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, corrupti iusto ea repudiandae voluptatum vel deleniti odio beatae nobis similique fugiat, expedita dolores porro? Suscipit, repellat? Iusto magni optio cumque.</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquid harum totam, odit
+                fuga alias laboriosam sapiente mollitia ipsum nihil quaerat tempore tempora similique dolorem nostrum
+                quisquam magni accusamus inventore.</p>
+        </div>
+    </section>
 
     <footer>
 
     </footer>
-
+    <script type="text/javascript" src="script/partenaire.js"></script>
     <script>
-        $( "#test" ).load("menu.html");
+        $("header").load("menu.html");
+        $("footer").load("footer.html");
     </script>
 
 </body>
@@ -32,5 +79,7 @@
 
 
 
+
+</html>
 
 </html>

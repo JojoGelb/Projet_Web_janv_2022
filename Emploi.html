@@ -1,36 +1,77 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
-    <title>Accueil</title>
+
+    <title>Emploi</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="./style/accueil.css" />
     <link rel="stylesheet" type="text/css" href="style/menu.css" />
     <link rel="stylesheet" type="text/css" href="./style/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./style/emploi.css" />
     <script type="text/javascript" src="script/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="script/include.js"></script>
+
 </head>
 
 <body>
 
-    <header id="test">
+    <header>
 
     </header>
-    
-    <h1>COOL things</h1>
+
+    <main id="emploi">
+        <h1>Liste des offres d'emploi</h1>
+        <section id="offres">
+            <section class="offre">
+                <p>Boulanger</p>
+                <p>Artisan</p>
+                <ul>
+                    <li>fabriquer du pain</li>
+                    <li>fabriquer la viennoiserie</li>
+                </ul>
+                <p>1800€/mois</p>
+            </section>
+
+            <section class="offre">
+                <p>Chef boulanger (5 ans expérience)</p>
+                <p>Artisan</p>
+                <ul>
+                    <li>Concevoir des recettes innovantes</li>
+                    <li>Assurer la production  de produits de boulangerie</li>
+                </ul>
+                <p>2700€/mois</p>
+            </section>
+
+            <section class="offre">
+                <p>Livreur</p>
+                <p>Chauffeur</p>
+                <ul>
+                    <li>transporter des biens </li>
+                </ul>
+                <p>1600€/mois</p>
+            </section>
+
+            <section class="offre">
+                <p>Caissier</p>
+                <p>Salarié</p>
+                <ul>
+                    <li>Accueillir et informer la clientèle</li>
+                    <li>Approvisionner les rayons</li>
+                </ul>
+                <p>1500€/mois</p>
+            </section>
+        </section>
+    </main>
 
     <footer>
 
     </footer>
 
     <script>
-        $( "#test" ).load("menu.html");
+        $("header").load("menu.html");
+        $("footer").load("footer.html");
     </script>
-
 </body>
-
-
-
-
 
 </html>

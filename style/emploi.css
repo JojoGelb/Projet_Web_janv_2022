@@ -1,0 +1,33 @@
+body{
+    width: 1900px;
+    background-color: #F2B279;
+}
+
+header nav ul li:nth-child(6) a{
+    background-color: #591202;
+}
+
+#emploi h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#offres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 20%;
+    text-align: center;
+    gap: 30px;
+}
+
+.offre {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.offre li {
+    list-style-type: none;
+}

@@ -3,7 +3,7 @@ body{
     background-color: #F2B279;
 }
 
-header nav ul li:nth-child(3) a{
+header nav ul li:nth-child(3) #principal{
     background-color: #591202;
 }
 
@@ -23,6 +23,7 @@ header nav ul li:nth-child(3) a{
     flex-direction: column;
     align-items: center;
     border: black solid 1px;
+    background-color: #8C6354;
 }
 
 #three_container section a img{
