@@ -3,8 +3,12 @@
     <section id="Copyright">
         <h1>Copyright</h1>
         <p>Made by Jordy Gelb</p>
-        <p>January 2022</p>
+        <span id="DATE"></span>
     </section>
+
+    <script>
+        document.getElementById("DATE").innerHTML = new Date().getFullYear();
+    </script>
 
     <section id="Pages">
         <h1>Page du site</h1>
@@ -65,3 +69,4 @@
     </section>
 
 </div>
+

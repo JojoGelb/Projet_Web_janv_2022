@@ -3,10 +3,10 @@ window.onload = function add_my_realisations() {
 }
 
 var table = [
-    {"href":"real1.html","src":"ressources/pain.jpg","alt":"Mon premier pain","text":"lorem opposum"},
-    {"href":"real2.html","src":"ressources/pain2.jpg","alt":"Mon second pain","text":"lorem ipusume"},
-    {"href":"real3.html","src":"ressources/pain4.jpg","alt":"Mon quatrième pain","text":"lorem opposumake"},
-    {"href":"real4.html","src":"ressources/pain5.jpg","alt":"Mon cinquième pain","text":"lorem opposama"},
+    {"href":"real1.html","src":"ressources/pain.jpg","alt":"Mon premier pain","text":"pain basique"},
+    {"href":"real2.html","src":"ressources/pain2.jpg","alt":"Mon second pain","text":"pain rustique"},
+    {"href":"real3.html","src":"ressources/pain4.jpg","alt":"Mon quatrième pain","text":"pain perdu"},
+    {"href":"real4.html","src":"ressources/pain5.jpg","alt":"Mon cinquième pain","text":"pain de savoie"},
 ]
 
 function add_realisations(){
